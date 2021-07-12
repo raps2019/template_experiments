@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components/macro";
+import { motion } from "framer-motion";
 
 const GlobalStyle = createGlobalStyle`
 *, *::before, *::after {
@@ -10,16 +11,12 @@ const GlobalStyle = createGlobalStyle`
 }
 `
 
-export const GlobalContainer = styled.div`
+export const GlobalPageContainer = styled(motion.div)`
 z-index: 1;
 width: 100%;
-max-width: 1300px;
 margin-right: auto;
-margin-left: auto;
-padding: 0 50px;
 
 @media screen and (max-width: 991px) {
-    padding: 0 30px;
 }
 `
 

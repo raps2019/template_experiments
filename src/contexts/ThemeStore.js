@@ -19,19 +19,27 @@ const ThemeStore = ({ children }) => {
   );
 };
 
-const themes = {
+export const themes = {
   light: {
+    background1: "#e6dbee", 
+    background2: '#fbfaff',
+    primary: '#f48668',
+    secondary: '#9762e5',
     navbar: {
       background: "white",
-      primary: "#ab87ff",
-      secondary: "#fface4",
+      primary: "#fec89a",
+      secondary: "#bde0fe",
       text: "black"
     }
   },
   dark: {
+    background1: '#212529',
+    background2: '#343a40',
+    primary: '#ffd18f',
+    secondary: '#b371fc',
     navbar: {
       background: "#212121",
-      primary: "#580aff",
+      primary: "#fec89a",
       secondary: "#be0aff",
       text: "white"
     }

@@ -1,10 +1,11 @@
 import React from 'react'
+import * as Styled from './Home.styles'
 
 const Home = () => {
   return (
-    <div>
+    <Styled.PageContainer>
       Home
-    </div>
+    </Styled.PageContainer>
   )
 }
 
